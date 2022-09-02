@@ -2,6 +2,8 @@
 
 YouTube mobile UI (dark theme) using flutter. Created for learning purposes only.
 
+Disclaimer:  I do not own any of the photos used in thumbnails and shorts. Please note that all images and copyrights belong to their original owners. No copyright infringement intended.
+
 ## Photos:
 
 ![YouTube Mobile UI (1)](https://user-images.githubusercontent.com/94532348/188082625-3fd3cf6d-410e-4cb2-94b6-4ec7a63424aa.png)
