@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:youtube/pages/home.dart';
+import 'package:youtube/pages/structure.dart';
 
 class YoutubeAppBar extends StatelessWidget with PreferredSizeWidget {
   const YoutubeAppBar({Key? key}) : super(key: key);
@@ -9,13 +11,20 @@ class YoutubeAppBar extends StatelessWidget with PreferredSizeWidget {
   @override
   Widget build(BuildContext context) {
     return AppBar(
+      backgroundColor: Colors.black,
       title: Center(
         child: Row(
           children: [
             ElevatedButton.icon(
-              onPressed: () {},
+              style: ElevatedButton.styleFrom(primary: Colors.black),
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => const Structure()),
+                );
+              },
               icon: const Icon(
-                Icons.play_circle,
+                Icons.smart_display,
                 color: Colors.red,
               ),
               label: const Text(

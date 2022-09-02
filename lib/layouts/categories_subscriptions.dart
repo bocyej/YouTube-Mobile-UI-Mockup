@@ -1,42 +1,23 @@
 import 'package:flutter/material.dart';
 
-class HomeCategories extends StatelessWidget {
-  const HomeCategories({Key? key}) : super(key: key);
+class SubscribedCategories extends StatelessWidget {
+  const SubscribedCategories({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.all(3.0),
+      padding: const EdgeInsets.all(1.0),
       child: Column(
         children: [
           Row(
             children: [
-              const Padding(padding: EdgeInsets.only(right: 10)),
-              ElevatedButton.icon(
-                onPressed: () {},
-                style: ElevatedButton.styleFrom(
-                  primary: Colors.grey.shade900,
-                ),
-                icon: const Icon(
-                  Icons.explore_outlined,
-                  color: Colors.white,
-                ),
-                label: const Text(
-                  ' Explore',
-                  style: TextStyle(
-                    fontSize: 15,
-                    color: Colors.white,
-                  ),
-                ),
-              ),
-              const Padding(padding: EdgeInsets.only(right: 10)),
               const Padding(padding: EdgeInsets.only(right: 10)),
               ElevatedButton(
                 onPressed: () {},
                 style: ElevatedButton.styleFrom(
                   primary: Colors.white,
                   shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(15),
+                    borderRadius: BorderRadius.circular(12),
                   ),
                 ),
                 child: const Text(
@@ -53,7 +34,58 @@ class HomeCategories extends StatelessWidget {
                 style: ElevatedButton.styleFrom(
                   primary: Colors.grey.shade900,
                   shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(15),
+                    borderRadius: BorderRadius.circular(12),
+                  ),
+                ),
+                child: const Text(
+                  'Today',
+                  style: TextStyle(
+                    fontSize: 15,
+                    color: Colors.white,
+                  ),
+                ),
+              ),
+              const Padding(padding: EdgeInsets.only(right: 10)),
+              ElevatedButton(
+                onPressed: () {},
+                style: ElevatedButton.styleFrom(
+                  primary: Colors.grey.shade900,
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(12),
+                  ),
+                ),
+                child: const Text(
+                  'Continue Watching',
+                  style: TextStyle(
+                    fontSize: 15,
+                    color: Colors.white,
+                  ),
+                ),
+              ),
+              const Padding(padding: EdgeInsets.only(right: 10)),
+              ElevatedButton(
+                onPressed: () {},
+                style: ElevatedButton.styleFrom(
+                  primary: Colors.grey.shade900,
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(12),
+                  ),
+                ),
+                child: const Text(
+                  'Unwatched',
+                  style: TextStyle(
+                    fontSize: 15,
+                    color: Colors.white,
+                  ),
+                ),
+              ),
+              const Padding(padding: EdgeInsets.only(right: 10)),
+              ElevatedButton(
+                onPressed: () {},
+                style: ElevatedButton.styleFrom(
+                  primary: Colors.grey.shade900,
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(12),
                   ),
                 ),
                 child: const Text(
@@ -70,11 +102,11 @@ class HomeCategories extends StatelessWidget {
                 style: ElevatedButton.styleFrom(
                   primary: Colors.grey.shade900,
                   shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(15),
+                    borderRadius: BorderRadius.circular(12),
                   ),
                 ),
                 child: const Text(
-                  'Gaming',
+                  'Posts',
                   style: TextStyle(
                     fontSize: 15,
                     color: Colors.white,
@@ -85,41 +117,21 @@ class HomeCategories extends StatelessWidget {
               ElevatedButton(
                 onPressed: () {},
                 style: ElevatedButton.styleFrom(
-                  primary: Colors.grey.shade900,
+                  primary: Colors.black,
                   shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(15),
+                    borderRadius: BorderRadius.circular(12),
                   ),
                 ),
                 child: const Text(
-                  'Music',
+                  'Settings',
                   style: TextStyle(
                     fontSize: 15,
-                    color: Colors.white,
-                  ),
-                ),
-              ),
-              const Padding(padding: EdgeInsets.only(right: 10)),
-              ElevatedButton(
-                onPressed: () {},
-                style: ElevatedButton.styleFrom(
-                  primary: Colors.grey.shade900,
-                  shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(15),
-                  ),
-                ),
-                child: const Text(
-                  'Mixes',
-                  style: TextStyle(
-                    fontSize: 15,
-                    color: Colors.white,
+                    color: Colors.blue,
                   ),
                 ),
               ),
               const Padding(padding: EdgeInsets.only(right: 10)),
             ],
-          ),
-          const Divider(
-            color: Colors.grey,
           ),
         ],
       ),
