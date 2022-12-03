@@ -40,7 +40,7 @@ class Subscriptions extends StatelessWidget {
             ),
           ),
           SizedBox(
-            height: 40,
+            height: 50,
             child: ListView(
               scrollDirection: Axis.horizontal,
               children: [

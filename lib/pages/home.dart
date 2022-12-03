@@ -23,7 +23,7 @@ class Home extends StatelessWidget {
         children: [
           // Categories
           SizedBox(
-            height: 50,
+            height: 70,
             child: ListView(
               scrollDirection: Axis.horizontal,
               children: [
