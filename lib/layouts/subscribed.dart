@@ -24,7 +24,7 @@ class Subscribed extends StatelessWidget {
                       child: InkWell(
                         onTap: () {},
                         child: Ink.image(
-                          image: const AssetImage('assets/icons/icon1.jpg'),
+                          image: const AssetImage('assets/icons/icon1.png'),
                           height: 50,
                           width: 50,
                         ),

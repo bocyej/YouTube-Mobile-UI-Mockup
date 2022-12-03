@@ -33,7 +33,7 @@ class YtVid extends StatelessWidget {
                     children: [
                       const Padding(padding: EdgeInsets.only(left: 15)),
                       const CircleAvatar(
-                        backgroundImage: AssetImage('assets/icons/icon1.jpg'),
+                        backgroundImage: AssetImage('assets/icons/icon1.png'),
                         radius: 20,
                       ),
                       Column(
