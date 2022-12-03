@@ -8,14 +8,14 @@ class ShortsVid extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 0.0),
       child: SizedBox(
-        height: 625,
+        height: 656,
         child: Stack(
           children: <Widget>[
             Container(
               child: Image.asset(
-                'assets/images/vertical4.png',
-                width: 525,
-                height: 625,
+                'assets/images/vertical1.jpg',
+                width: 650,
+                height: 700,
               ),
             ),
             Container(
@@ -155,7 +155,7 @@ class ShortsVid extends StatelessWidget {
                     children: [
                       Padding(padding: EdgeInsets.only(left: 15)),
                       const CircleAvatar(
-                        backgroundImage: AssetImage('assets/icons/icon1.jpg'),
+                        backgroundImage: AssetImage('assets/icons/icon1.png'),
                         radius: 20,
                       ),
                       const Padding(padding: EdgeInsets.only(right: 10)),
@@ -186,7 +186,7 @@ class ShortsVid extends StatelessWidget {
                         child: InkWell(
                           onTap: () {},
                           child: Ink.image(
-                            image: const AssetImage('assets/icons/icon1.jpg'),
+                            image: const AssetImage('assets/icons/icon1.png'),
                             height: 42,
                             width: 42,
                           ),
